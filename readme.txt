@@ -35,7 +35,7 @@ Check out the [Symbiostock demo site](http://www.enlightenedmedia.com/ "Symbiost
 * **Scalable infrastructure.** Supports as many or as few images as you choose to sell. No additional overhead created, plugs right into the base WordPress infrastructure.
 * **100% compatible with WooCommerce themes.** With an extremely small frontend footprint, Symbiostock is fully compatible with any WooCommerce theme and requires no special configuration or alterations.
 * **EU VAT Supported.** Optional VAT plugins work to charge correctly, collect evidence, and even allow business customers to be exempted.
-* **Symbiostock Artist Network.** Join the Symbiostock Artist Network which showcases photographers, artists and vector designers that all use Symbiostock.
+* **Symbiostock Artist Network.** Join the [Symbiostock Artist Network](http://www.symbiostock.org/artist-network/ "Symbiostock Artist Network") which showcases photographers, artists and vector designers that all use Symbiostock.
 * **Extensive [documentation](http://www.symbiostock.org/docs "Symbiostock Documentation").** Ever growing online documentation that provides detailed instructions on installing and using Symbiostock, from licensing to media processing.
 * **[Support forums](http://www.symbiostock.org/forums "Symbiostock Forums").** Large community of supporters to discuss tips and tricks to optimize your use of Symbiostock.
 * **[Symbiostock PLUS](http://symbiostock.com/ "Symbiostock PLUS").** Pre-installed hosting solution provided from the makers of Symbiostock for those of you that want a quick and easy plug-and-play solution.
