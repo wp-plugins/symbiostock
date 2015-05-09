@@ -45,7 +45,7 @@ Many upcoming additions and features are in the works for Symbiostock, so keep u
 
 == Installation ==
 
-Symbiostock requires WooCommerce and the Imagick PHP extension to operate.
+Symbiostock requires **WooCommerce** and the **Imagick PHP extension** to operate.
 
 1. Install Symbiostock either via the WordPress.org plugin directory, or by uploading the files to your server.
 2. That's it. You're ready to start uploading media!
