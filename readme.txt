@@ -60,7 +60,7 @@ Symbiostock is 100% free! We have decided to release it as a fully featured free
 
 = Will Symbiostock conflict with my current WooCommerce integration? =
 
-Symbiostock is not meant to work hand in hand with other digital media downloads. It will work with other physical downloads, but this is not a supported feature as Symbiostock is generally meant to turn your WooCommerce store into a digital media store.
+Symbiostock is not meant to work hand in hand with digital media downloads not managed by Symbiostock.  It will work with other physical downloads, but this is not a supported feature as Symbiostock is generally meant to turn your WooCommerce store into a digital media store.
 
 = Are you going to be doing any networking amongst Symbiostock stores? =
 
