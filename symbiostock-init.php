@@ -171,6 +171,8 @@ function ss_init_license_attribute() {
 			}
 		}
 
+		unset($attribute);
+
 		global $wpdb;
 		$attribute['attribute_name'] = 'license';
 		$attribute['attribute_label'] = 'License';
