@@ -110,9 +110,9 @@ function remove_linked_products($tabs){
 	if (!$GLOBALS['currSS']->simplify()) return $tabs;
     unset($tabs['inventory']);
     unset($tabs['shipping']);
-    unset($tabs['linked_product']);
+//    unset($tabs['linked_product']);
     unset($tabs['attribute']);
-    unset($tabs['advanced']);
+//    unset($tabs['advanced']);
 	$tabs['variations'] = array(
         'label'  => __( 'Licenses', 'ss' ),
         'target' => 'variable_product_options',

@@ -30,7 +30,7 @@ function ss_admin_title($admin_title, $title) {
 
 add_filter( 'admin_footer_text', 'ss_footer_text',999);
 function ss_footer_text() {
-	return 'Thank you for selling with <a target="_blank" href="http://www.symbiostock.com">Symbiostock</a> and WooCommerce.';
+	return 'Thank you for selling with Symbiostock and WooCommerce. Please <a href="https://wordpress.org/support/view/plugin-reviews/symbiostock#postform" target="_blank">leave us a review</a> if you find Symbiostock useful!';
 }
 
 add_filter('woocommerce_register_post_type_product', 'ss_product_to_media');
