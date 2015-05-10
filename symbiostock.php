@@ -3,7 +3,7 @@
  * Plugin Name: Symbiostock
  * Plugin URI: http://www.symbiostock.org
  * Description: Symbiostock allows artists, illustrators and photographers to sell their visual art online quickly and easily.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Robin Murarka
  * Author URI: http://www.symbiostock.org
  * Text Domain: ss

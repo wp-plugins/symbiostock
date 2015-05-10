@@ -176,7 +176,7 @@ function ss_save_licenses_custom_meta( $term_id ) {
 					}
 				}
 				if ($key == 'ss_license_update_licenses') {
-					$args = array( 'post_type' => 'product','post_status' => array('draft', 'publish'), 'posts_per_page'=> 99999999);
+					$args = array( 'post_type' => 'product','post_status' => 'any', 'posts_per_page'=> 99999999);
 					$myp = get_posts($args);
 					foreach ( $myp as $currproduct ) {
 						$mediatypes = array('raster','vector','video');

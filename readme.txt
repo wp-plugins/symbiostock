@@ -2,7 +2,7 @@
 Contributors: Symbiostock
 Donate link: http://www.symbiostock.org/donate/
 Tags: symbiostock, microstock, stock images, photography, vectors, sell, store, ecommerce, art, online store, sell art, woocommerce, thumbnails, watermark, digital downloads, artist, image store, photography store, art store, media, micro stock, stock photography, photos, illustrations, stock photos, sell stock photos, symbio stock, gallery, portfolio, digital art, online art, digital images, graphics, graphic design, graphic art, royalty free, photo management, clipart, pictures, sell pictures, sell photos, image library, web design, royalty free images, photo bank, photo library, photographer, illustrator, album, image hosting, image processing, watermarking, sell photographs, checkout, e-commerce, image, image album, image gallery, nextgen, nextgen gallery, paypal, photo, photo album, photo albums, photo gallery, photoalbum, photogallery, picture, sales, selling, shop, shopping
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires at least: 4.0.0
 Tested up to: 4.2.2
 License: GPLv2
@@ -88,12 +88,23 @@ Easy!
 
 == Changelog ==
 
+= 1.0.1 =
+Release Date: May 10, 2015
+
+* Fixed minor bug where thumbnails would not get regenerated if product was still in draft mode
+* Tweaked certain hooks
+* Added more tabs to product edit page in simplified mode
+* Added additional safeties for previous WooCommerce install
+
 = 1.0.0 =
 Release Date: May 9, 2015
 
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Small bug fixes, added some options. Nothing major.
 
 = 1.0.0 =
 Upgrade to the latest and greatest version.

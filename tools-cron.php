@@ -72,8 +72,9 @@ function ss_update_thumbnails($limit=10) {
 	$i = 0;
 	if ($regenkey = get_option('ss_regen_thumbnails')) {
 		require_once( trailingslashit(ABSPATH) . 'wp-admin/includes/image.php' );
-		$args = array( 'post_type' => 'product', 'posts_per_page'=> 9999999999999999);
+		$args = array('post_status' => 'any', 'post_type' => 'product', 'posts_per_page'=> 9999999999999999);
 		$myposts = get_posts($args);
+
 		foreach ( $myposts as $currpost ) {
 			if ($i >= $limit) break;
 			if (get_post_meta($currpost->ID, 'ss_last_thumbnail_regen', true) < $regenkey) {
@@ -90,7 +91,7 @@ function ss_update_thumbnails($limit=10) {
 // Update all download urls to match licenses in the case of manual additions and removals
 // Update all download limits to match global settings
 function ss_update_dlspecs() {
-	$args = array( 'post_type' => 'product_variation', 'posts_per_page'=> 9999999999999999);
+	$args = array('post_status' => 'any', 'post_type' => 'product_variation', 'posts_per_page'=> 9999999999999999);
 	$myposts = get_posts($args);
 	$i = 0;
 	foreach ( $myposts as $currvariation ) {
