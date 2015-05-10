@@ -13,6 +13,8 @@ class ss_create_Settings {
 	}
 
 	function ss_settings_page() {
+		$GLOBALS['currSS']->issspage = 1;
+
 		if(isset($_POST['fpass'])) {
 			do_action('ss_start_options_receive');
 

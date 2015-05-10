@@ -29,8 +29,9 @@ function ss_admin_title($admin_title, $title) {
 }
 
 add_filter( 'admin_footer_text', 'ss_footer_text',999);
-function ss_footer_text() {
-	return 'Thank you for selling with Symbiostock and WooCommerce. Please <a href="https://wordpress.org/support/view/plugin-reviews/symbiostock#postform" target="_blank">leave us a review</a> if you find Symbiostock useful!';
+function ss_footer_text($footer_text) {
+	if (isset($GLOBALS['currSS']->issspage) || stristr($footer_text,'woocommerce')) return 'Thank you for selling with Symbiostock and WooCommerce. Please leave us a <a href="https://wordpress.org/support/view/plugin-reviews/symbiostock#postform" target="_blank">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating if you find Symbiostock useful!';
+	return $footer_text;
 }
 
 add_filter('woocommerce_register_post_type_product', 'ss_product_to_media');

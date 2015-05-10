@@ -4,6 +4,7 @@ $currSS->disable_direct_access();
 
 // Add term page
 function ss_licenses_add_new_meta_field() {
+	$GLOBALS['currSS']->issspage = 1;
 	// this will add the custom meta field to the add new term page
 	?>
 	<div class="form-field">
@@ -65,6 +66,7 @@ add_action( 'pa_license_add_form_fields', 'ss_licenses_add_new_meta_field', 10, 
 
 // Edit term page
 function ss_licenses_edit_meta_field($term) {
+	$GLOBALS['currSS']->issspage = 1;
  
 	// put the term ID into a variable
 	$t_id = $term->term_id;
