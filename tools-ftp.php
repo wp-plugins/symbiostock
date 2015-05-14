@@ -5,7 +5,7 @@ $currSS->disable_direct_access();
 function ss_update_media_info($post_id,$fileloc) {
 	if ($type = ss_get_media_type($fileloc)) {
 
-		$finalfilename = ss_getmedianame($post_id).'.'.pathinfo($fileloc,PATHINFO_EXTENSION);
+		$finalfilename = strtolower(ss_getmedianame($post_id).'.'.pathinfo($fileloc,PATHINFO_EXTENSION));
 		$imgu = getimagesize($fileloc);
 	
 		// Update post with image information
@@ -55,7 +55,9 @@ function ss_process_ftp($limit=5) {
 			$postid = pathinfo($fname,PATHINFO_FILENAME);
 			$postid = str_replace($GLOBALS['currSS']->ss_media_replace_prefix,'',$postid);
 			if (get_post_status($postid)) {
+				$oldfilename = $GLOBALS['currSS']->ss_media_dir.get_post_meta($postid, 'ss_media_filename', true);
 				if ($finalfilename = ss_update_media_info($postid,$fileloc)) {
+					if (file_exists($oldfilename)) unlink($oldfilename);
 					rename ($fileloc, $GLOBALS['currSS']->ss_media_dir.$finalfilename);
 					ss_redo_thumbnails($postid);
 					ss_write_image_metadata($postid);
@@ -64,6 +66,8 @@ function ss_process_ftp($limit=5) {
 				} else {
 					ss_file_failed($fileloc,$fname);
 				}
+			} else {
+				ss_file_failed($fileloc,$fname);
 			}
 		}
 
