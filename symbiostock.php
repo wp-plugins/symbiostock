@@ -93,7 +93,7 @@ class ssHelper {
 		$this->ss_fallback_imagesize = 7000;
 
 		// Maximum number of images to process during cron job
-		$this->ss_maxload = 15;
+		$this->ss_maxload = 5;
 
 		$this->userid = 1;
 		$this->siteid = 1;

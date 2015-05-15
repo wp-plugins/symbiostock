@@ -20,7 +20,7 @@ if (isset($_GET['ss_wm'])) {
 
 // Process cron
 add_action('init', 'ss_do_cron');
-function ss_do_cron($maxload=20) {
+function ss_do_cron($maxload=5) {
 	if (!$maxload) {
 		$maxload = $GLOBALS['currSS']->ss_maxload;
 	}
