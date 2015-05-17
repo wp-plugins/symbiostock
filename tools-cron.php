@@ -163,7 +163,7 @@ function ss_update_thumbnails($limit=10) {
 			}
 
 			// An action hook for non-critical product checks
-			ss_do_product_updates_notcritical($postid);
+			ss_do_product_updates_notcritical($currpost);
 		}
 		if (($limit > 0) && !$i) ss_update_option('ss_regen_thumbnails', 0);
 	}
