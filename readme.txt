@@ -90,11 +90,13 @@ Easy!
 == Changelog ==
 
 = 1.2 =
-Release Date: May 20, 2015
+Release Date: May 17, 2015
 
 * Feature added: Tag searching is now included
 * Feature added: Searches with tags speed improved by over 85% compared to most
 * Feature added: Environmental variables checks/notifications in settings area
+* Feature added: Processor now relays actions and memory usage
+* Feature added: Set amount of images to process in settings
 * Major tweaks: Processor severely overhauled to use less memory
 * WooCommerce enhancement: Now when deleting a license, it will remove associated product variations
 * Many bug fixes relating to WooCommerce integration
@@ -119,6 +121,9 @@ Release Date: May 9, 2015
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.2 =
+Major release, highly recommended.
 
 = 1.0.1 =
 Small bug fixes, added some options. Nothing major.
