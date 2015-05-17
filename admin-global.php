@@ -58,9 +58,9 @@ function ss_change_menutitle($title) {
 	global $menu,$submenu;
 
 	foreach ($menu as $key => $value) {
-		if ($value[0] == 'Dashboard') $dashkey = $key;
+		if ($value[0] == __( 'Dashboard' )) $dashkey = $key;
 		if ($value[0] == 'Symbiostock') $sskey = $key;
-		if ($value[0] == 'WooCommerce') $wookey = $key;
+		if ($value[0] == __( 'WooCommerce', 'woocommerce' )) $wookey = $key;
 	}
 	$seperator = array("","read","separator1","","wp-menu-separator");
 	if (isset($dashkey)) $newmenu[2] = $menu[$dashkey];
