@@ -100,6 +100,7 @@ Release Date: May 17, 2015
 * Major tweaks: Processor severely overhauled to use less memory
 * WooCommerce enhancement: Now when deleting a license, it will remove associated product variations
 * Many bug fixes relating to WooCommerce integration
+* Fixed double WooCommerce menu icons showing on some foreign dashboards
 
 = 1.1 =
 Release Date: May 13, 2015
