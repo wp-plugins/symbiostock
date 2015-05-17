@@ -12,8 +12,7 @@ function ss_init_directories() {
 	if (!file_exists($GLOBALS['currSS']->ss_media_dir)) wp_mkdir_p($GLOBALS['currSS']->ss_media_dir);
 	if (!file_exists($GLOBALS['currSS']->ss_media_dir.'.htaccess')) {
 		$fp = fopen($GLOBALS['currSS']->ss_media_dir . '.htaccess', 'w');
-		fwrite($fp, 'deny from all
-AllowOverride None');
+		fwrite($fp, 'deny from all');
 		fclose($fp);
 	}
 	if (!file_exists($GLOBALS['currSS']->ss_media_upload_dir)) wp_mkdir_p($GLOBALS['currSS']->ss_media_upload_dir);
@@ -23,8 +22,7 @@ AllowOverride None');
 	if (!file_exists($GLOBALS['currSS']->ss_tmp_dir)) wp_mkdir_p($GLOBALS['currSS']->ss_tmp_dir);
 	if (!file_exists($GLOBALS['currSS']->ss_tmp_dir.'.htaccess')) {
 		$fp = fopen($GLOBALS['currSS']->ss_tmp_dir . '.htaccess', 'w');
-		fwrite($fp, 'deny from all
-AllowOverride None');
+		fwrite($fp, 'deny from all');
 		fclose($fp);
 	}
 
