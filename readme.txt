@@ -2,7 +2,7 @@
 Contributors: Symbiostock
 Donate link: http://www.symbiostock.org/donate/
 Tags: symbiostock, microstock, stock images, photography, vectors, sell, store, ecommerce, art, online store, sell art, woocommerce, thumbnails, watermark, digital downloads, artist, image store, photography store, art store, media, micro stock, stock photography, photos, illustrations, stock photos, sell stock photos, symbio stock, gallery, portfolio, digital art, online art, digital images, graphics, graphic design, graphic art, royalty free, photo management, clipart, pictures, sell pictures, sell photos, image library, web design, royalty free images, photo bank, photo library, photographer, illustrator, album, image hosting, image processing, watermarking, sell photographs, checkout, e-commerce, image, image album, image gallery, nextgen, nextgen gallery, paypal, photo, photo album, photo albums, photo gallery, photoalbum, photogallery, picture, sales, selling, shop, shopping, woocommerce photo, woocommerce picture, woocommerce media, woocommerce stock images, woocommerce microstock
-Stable tag: 1.1.3
+Stable tag: 1.2
 Requires at least: 4.0.0
 Tested up to: 4.2.2
 License: GPLv2
@@ -89,26 +89,20 @@ Easy!
 
 == Changelog ==
 
-= 1.1.3 =
-Release Date: May 16, 2015
+= 1.2 =
+Release Date: May 20, 2015
 
-* Memory fix on processor
-
-= 1.1.2 =
-Release Date: May 15, 2015
-
-* Minor enhancement to processor
-* New Feature: Added environmental variable flags to settings page
-
-= 1.1.1 =
-Release Date: May 15, 2015
-
-* Minor enhancement to processor
+* Feature added: Tag searching is now included
+* Feature added: Searches with tags speed improved by over 85% compared to most
+* Feature added: Environmental variables checks/notifications in settings area
+* Major tweaks: Processor severely overhauled to use less memory
+* WooCommerce enhancement: Now when deleting a license, it will remove associated product variations
+* Many bug fixes relating to WooCommerce integration
 
 = 1.1 =
 Release Date: May 13, 2015
 
-* Feature added: Now you can automatically save your WordPress product information to files in their metadata for titles, descriptions and keywords. Great for agency submissions.
+* Feature added: Metadata writing. Now you can automatically save your WordPress product information to files in their metadata for titles, descriptions and keywords. Great for agency submissions.
 * Minor tweaks
 
 = 1.0.1 =
