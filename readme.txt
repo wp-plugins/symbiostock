@@ -16,7 +16,7 @@ Symbiostock allows artists, illustrators and photographers to sell their visual 
 
 **Please note that all support is performed on Symbiostock.org in our [forums](http://www.symbiostock.org/forums "Symbiostock Forums"). Queries in the support forum here may or may not be answered.**
 
-Check out the [Symbiostock demo site](http://www.enlightenedmedia.com/ "Symbiostock demo site") to see Symbiostock in action!
+Check out the [Symbiostock demo site](http://demo.symbiostock.com/ "Symbiostock demo site") to see Symbiostock in action!
 
 **Features include:**
 
