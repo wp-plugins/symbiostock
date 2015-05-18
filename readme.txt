@@ -92,7 +92,7 @@ Easy!
 = 1.2.1 =
 Release Date: May 18, 2015
 
-* Minor big fixed on product only searches
+* Minor bug fixed on product only searches
 
 = 1.2 =
 Release Date: May 17, 2015
