@@ -49,7 +49,7 @@ jQuery(document).ready(function(){
 		}
 		else {	// Editing
 ?>
-<p class="form-field _ss_mediatype_field "><label for="_ss_mediatype">Media Type</label><select id="_ss_mediatype" name="_ss_mediatype" class="select short" style="" disabled><option><?php print ucfirst($type); ?></option></select></p>
+<p class="form-field _ss_mediatype_field "><input type="hidden" name="pass" value="1"><label for="_ss_mediatype">Media Type</label><select id="_ss_mediatype" name="_ss_mediatype" class="select short" style="" disabled><option><?php print ucfirst($type); ?></option></select></p>
 <p class="form-field _ss_mediatype_field "><label for="_ss_rating">Rating</label><select id="_ss_rating" name="_ss_rating" class="select short" style="">
 <option value='1' <?php if ($rating == 1) print 'selected'; ?>>G - General</option>
 <option value='2' <?php if ($rating == 2) print 'selected'; ?>>PG - Parental Guidance</option>
@@ -63,7 +63,7 @@ jQuery(document).ready(function(){
 			$filename = $GLOBALS['currSS']->ss_media_dir.get_post_meta($post->ID, 'ss_media_filename', true);
 			if (ss_get_mime_type($filename) == 'image/jpeg') {
 ?>
-<p class="form-field _ss_mediatype_field "><input type="hidden" name="pass" value="1"><label for="_ss_update_metadata">Update Metadata:</label> Yes <input type="radio" id="_ss_update_metadata" name="_ss_update_metadata" value="1" <?php if ($updatemetadata == 1) print 'checked'; ?>> &nbsp; No <input type="radio" id="_ss_update_metadata" name="_ss_update_metadata" value="2" <?php if ($updatemetadata == 2) print 'checked'; ?>> &nbsp; Global Default <input type="radio" id="_ss_update_metadata" name="_ss_update_metadata" value="0" <?php if (!$updatemetadata) print 'checked'; ?>></p>
+<p class="form-field _ss_mediatype_field "><label for="_ss_update_metadata">Update Metadata:</label> Yes <input type="radio" id="_ss_update_metadata" name="_ss_update_metadata" value="1" <?php if ($updatemetadata == 1) print 'checked'; ?>> &nbsp; No <input type="radio" id="_ss_update_metadata" name="_ss_update_metadata" value="2" <?php if ($updatemetadata == 2) print 'checked'; ?>> &nbsp; Global Default <input type="radio" id="_ss_update_metadata" name="_ss_update_metadata" value="0" <?php if (!$updatemetadata) print 'checked'; ?>></p>
 <?php
 			}
 		}
