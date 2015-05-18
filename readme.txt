@@ -2,7 +2,7 @@
 Contributors: Symbiostock
 Donate link: http://www.symbiostock.org/donate/
 Tags: symbiostock, microstock, stock images, photography, vectors, sell, store, ecommerce, art, online store, sell art, woocommerce, thumbnails, watermark, digital downloads, artist, image store, photography store, art store, media, micro stock, stock photography, photos, illustrations, stock photos, sell stock photos, symbio stock, gallery, portfolio, digital art, online art, digital images, graphics, graphic design, graphic art, royalty free, photo management, clipart, pictures, sell pictures, sell photos, image library, web design, royalty free images, photo bank, photo library, photographer, illustrator, album, image hosting, image processing, watermarking, sell photographs, checkout, e-commerce, image, image album, image gallery, nextgen, nextgen gallery, paypal, photo, photo album, photo albums, photo gallery, photoalbum, photogallery, picture, sales, selling, shop, shopping, woocommerce photo, woocommerce picture, woocommerce media, woocommerce stock images, woocommerce microstock
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 Requires at least: 4.0.0
 Tested up to: 4.2.2
 License: GPLv2
@@ -88,6 +88,11 @@ Easy!
 5. Actual front end screenshot from live demo site
 
 == Changelog ==
+
+= 1.2.2 =
+Release Date: May 18, 2015
+
+* Minor bug fixed on cron integrity check
 
 = 1.2.1 =
 Release Date: May 18, 2015
