@@ -4,9 +4,9 @@ $currSS->disable_direct_access();
 
 function modify_wp_search_where( $where ) {
 
-	if( is_search() ) {
-		
-		global $wpdb, $wp;
+	global $wpdb, $wp;
+
+	if( is_search() && !stristr($where,$wpdb->postmeta)) {
 
 		$where = preg_replace(
 			"/($wpdb->posts.post_title (LIKE '%{$wp->query_vars['s']}%'))/i",
@@ -21,7 +21,7 @@ function modify_wp_search_where( $where ) {
 	return $where;
 	
 }
-add_action( 'posts_where_request', 'modify_wp_search_where' );
+add_action( 'posts_where_request', 'modify_wp_search_where',11);
 
 function modify_wp_search_join( $join ) {
 
