@@ -8,11 +8,11 @@ Tested up to: 4.2.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Symbiostock allows artists, illustrators and photographers to sell their visual art online quickly and easily.
+Symbiostock allows artists, illustrators and photographers to sell their photographs and images online quickly and easily.
 
 == Description ==
 
-[Symbiostock](http://www.symbiostock.org/ "Symbiostock - Sell your art online!") is a free, fully-featured WordPress plugin that works hand in hand with WooCommerce to offer a complete ecommerce platform for you to sell your visual media, whether it be photographs, illustrations or vectors.
+[Symbiostock](http://www.symbiostock.org/ "Symbiostock - Sell your images!") is a free, fully-featured WordPress plugin that works hand in hand with WooCommerce to offer a complete ecommerce platform for you to sell your visual media, whether it be photographs, illustrations or vectors.
 
 **Please note that all support is performed on Symbiostock.org in our [forums](http://www.symbiostock.org/forums "Symbiostock Forums"). Queries in the support forum here may or may not be answered.**
 
@@ -20,19 +20,19 @@ Check out the [Symbiostock demo site](http://demo.symbiostock.com/ "Symbiostock 
 
 **Features include:**
 
-* **FTP support.** Upload all your content via FTP quickly and easily for automated processing of media.
+* **FTP support.** Upload all your images via FTP quickly and easily for automated processing of media.
 * **Cron jobs.** Schedule the powerful built in processor to run periodically and minimize your workload. Alternatively, initiate processing on the fly via the administrative interface.
 * **Automatic thumbnail regeneration.** Automatically generates thumbnails as images are processed. Will automatically regenerate all thumbnails on size or watermark changes.
 * **Powerful watermarking.** Create your own watermark or use the default one. Decide how big or small the watermark will be, and what opacity it will have. Completely personalize the way your thumbnails look.
 * **Robust licensing.** Create your own licenses or use the built in defaults. Decide the size and type of images provided to the customer.
-* **Secure downloads.** All downloads are protected, files hidden from public view. Decide how many times, and for how much time, images can be downloaded once purchased.
-* **Global editing.** Change media prices individually or globally. Apply licenses individually or globally.
+* **Secure downloads.** All image downloads are protected, files hidden from public view. Decide how many times, and for how much time, images can be downloaded once purchased.
+* **Global editing.** Change image prices individually or globally. Apply licenses individually or globally.
 * **Unlimited licenses.** Create as many or as few licenses as you need.
 * **Full metadata processing.** Imports all image metadata, including titles, descriptions and keywords directly into your product details.
 * **Save metadata to images.** Automatically save your product details, including titles, descriptions and tags to images.
 * **Automatic publishing.** Enable or disable auto-publishing of images that have metadata.
-* **Professional tagging.** Tag media as editorial, or inform customers that you have a signed model release or property release. Mark media that is exclusive to your store so it stands out to customers.
-* **Simplified interface.** Enable a media store oriented interface to simplify your administrative panel.
+* **Professional tagging.** Tag media as editorial, or inform customers that you have a signed model release or property release. Mark images that are exclusive to your store so they stand out to customers.
+* **Simplified interface.** Enable an image store oriented interface to simplify your administrative panel.
 * **Scalable infrastructure.** Supports as many or as few images as you choose to sell. No additional overhead created, plugs right into the base WordPress infrastructure.
 * **100% compatible with WooCommerce themes.** With an extremely small frontend footprint, Symbiostock is fully compatible with any WooCommerce theme and requires no special configuration or alterations.
 * **EU VAT Supported.** Optional VAT plugins work to charge correctly, collect evidence, and even allow business customers to be exempted.
@@ -78,6 +78,7 @@ Easy!
 * You can join our [forums](http://www.symbiostock.org/forums "Symbiostock Forums") to provide feedback, suggestions, and to help other users optimize and troubleshoot.
 * You can support the [Artist Network](http://www.symbiostock.org/artist-network/ "Symbiostock Artist Network") and the Symbiostock Project through links and recommendations.
 * You can support our development through [donations](http://www.symbiostock.org/donate/) or using our [PLUS](http://symbiostock.com/ "Symbiostock Hosting Service") hosting services.
+* You can give us a glowing review on WordPress - reviews from users like you are the bread and butter of any good plugin.
 
 == Screenshots ==
 
