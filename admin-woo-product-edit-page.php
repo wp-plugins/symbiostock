@@ -61,7 +61,8 @@ jQuery(document).ready(function(){
 <p class="form-field _ss_reuploadimage_field "><label for="_ss_reuploadimage">Re-upload media:</label><input type="file" id="_ss_reuploadimage" name="_ss_reuploadimage"><br>Replacements will be processed systematically during maintenance run. Uploads over <b>8MB</b> in size may not work using this web form.<br>An alternative to using this web-form is to upload the file via FTP with the following filename: <b><?php print $GLOBALS['currSS']->ss_media_replace_prefix.$post->ID; ?></b><br> Examples: <b><?php print $GLOBALS['currSS']->ss_media_replace_prefix.$post->ID; ?></b>.jpg, <b><?php print $GLOBALS['currSS']->ss_media_replace_prefix.$post->ID; ?></b>.eps</p>
 <?php
 			$filename = $GLOBALS['currSS']->ss_media_dir.get_post_meta($post->ID, 'ss_media_filename', true);
-			if (($type == 'image/jpeg') || ($type == 'image/tiff')) {
+			$mime = ss_get_mime_type($filename);
+			if (($mime == 'image/jpeg') || ($mime == 'image/tiff')) {
 ?>
 <p class="form-field _ss_mediatype_field "><label for="_ss_update_metadata">Update Metadata:</label> Yes <input type="radio" id="_ss_update_metadata" name="_ss_update_metadata" value="1" <?php if ($updatemetadata == 1) print 'checked'; ?>> &nbsp; No <input type="radio" id="_ss_update_metadata" name="_ss_update_metadata" value="2" <?php if ($updatemetadata == 2) print 'checked'; ?>> &nbsp; Global Default <input type="radio" id="_ss_update_metadata" name="_ss_update_metadata" value="0" <?php if (!$updatemetadata) print 'checked'; ?>></p>
 <?php
