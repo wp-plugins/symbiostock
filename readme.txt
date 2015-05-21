@@ -2,7 +2,7 @@
 Contributors: Symbiostock
 Donate link: http://www.symbiostock.org/donate/
 Tags: symbiostock, microstock, stock images, photography, vectors, sell, store, ecommerce, art, online store, sell art, woocommerce, thumbnails, watermark, digital downloads, artist, image store, photography store, art store, media, micro stock, stock photography, photos, illustrations, stock photos, sell stock photos, symbio stock, gallery, portfolio, digital art, online art, digital images, graphics, graphic design, graphic art, royalty free, photo management, clipart, pictures, sell pictures, sell photos, image library, web design, royalty free images, photo bank, photo library, photographer, illustrator, album, image hosting, image processing, watermarking, sell photographs, checkout, e-commerce, image, image album, image gallery, nextgen, nextgen gallery, paypal, photo, photo album, photo albums, photo gallery, photoalbum, photogallery, picture, sales, selling, shop, shopping, woocommerce photo, woocommerce picture, woocommerce media, woocommerce stock images, woocommerce microstock
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 Requires at least: 4.0.0
 Tested up to: 4.2.2
 License: GPLv2
@@ -26,10 +26,10 @@ Check out the [Symbiostock demo site](http://demo.symbiostock.com/ "Symbiostock 
 * **Powerful watermarking.** Create your own watermark or use the default one. Decide how big or small the watermark will be, and what opacity it will have. Completely personalize the way your thumbnails look.
 * **Robust licensing.** Create your own licenses or use the built in defaults. Decide the size and type of images provided to the customer.
 * **Secure downloads.** All image downloads are protected, files hidden from public view. Decide how many times, and for how much time, images can be downloaded once purchased.
-* **Global editing.** Change image prices individually or globally. Apply licenses individually or globally.
+* **Global & Bulk editing.** Change image prices individually or globally. Apply licenses individually or globally. Change titles, descriptions, tags in bulk.
 * **Unlimited licenses.** Create as many or as few licenses as you need.
 * **Full metadata processing.** Imports all image metadata, including titles, descriptions and keywords directly into your product details.
-* **Save metadata to images.** Automatically save your product details, including titles, descriptions and tags to images.
+* **Save metadata to images.** Automatically save your product details, including titles, descriptions and tags to images. Edit metadata in bulk.
 * **Automatic publishing.** Enable or disable auto-publishing of images that have metadata.
 * **Professional tagging.** Tag media as editorial, or inform customers that you have a signed model release or property release. Mark images that are exclusive to your store so they stand out to customers.
 * **Simplified interface.** Enable an image store oriented interface to simplify your administrative panel.
@@ -89,6 +89,13 @@ Easy!
 5. Actual front end screenshot from live demo site
 
 == Changelog ==
+
+= 1.2.4 =
+Release Date: May 21, 2015
+
+* Feature added: Bulk editing of titles, descriptions, tags added.
+* Feature added: Bulk edits also write image metadata where applicable if settings allow for it
+* Feature added: Simplify mode now removes excess fields from bulk editor
 
 = 1.2.3 =
 Release Date: May 20, 2015
