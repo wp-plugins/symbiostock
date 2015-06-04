@@ -1,4 +1,4 @@
-=== Symbiostock ===
+=== Symbiostock - Sell Your Images! ===
 Contributors: Symbiostock
 Donate link: http://www.symbiostock.org/donate/
 Tags: symbiostock, microstock, stock images, photography, vectors, sell, store, ecommerce, art, online store, sell art, woocommerce, thumbnails, watermark, digital downloads, artist, image store, photography store, art store, media, micro stock, stock photography, photos, illustrations, stock photos, sell stock photos, symbio stock, gallery, portfolio, digital art, online art, digital images, graphics, graphic design, graphic art, royalty free, photo management, clipart, pictures, sell pictures, sell photos, image library, web design, royalty free images, photo bank, photo library, photographer, illustrator, album, image hosting, image processing, watermarking, sell photographs, checkout, e-commerce, image, image album, image gallery, nextgen, nextgen gallery, paypal, photo, photo album, photo albums, photo gallery, photoalbum, photogallery, picture, sales, selling, shop, shopping, woocommerce photo, woocommerce picture, woocommerce media, woocommerce stock images, woocommerce microstock
@@ -8,7 +8,7 @@ Tested up to: 4.2.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Symbiostock allows artists, illustrators and photographers to sell their photographs and images online quickly and easily.
+Symbiostock allows artists, illustrators and photographers to sell their photographs and stock images online quickly and easily.
 
 == Description ==
 
