@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Symbiostock
  * Plugin URI: http://www.symbiostock.org
- * Description: Symbiostock allows artists, illustrators and photographers to sell their photographs and images online quickly and easily.
+ * Description: Symbiostock allows artists, illustrators and photographers to sell their photographs and stock images online quickly and easily.
  * Version: 1.2.4
  * Author: Robin Murarka
  * Author URI: http://www.symbiostock.org
