@@ -2,7 +2,7 @@
 Contributors: Symbiostock
 Donate link: http://www.symbiostock.org/donate/
 Tags: symbiostock, microstock, stock images, photography, vectors, sell, store, ecommerce, art, online store, sell art, woocommerce, thumbnails, watermark, digital downloads, artist, image store, photography store, art store, media, micro stock, stock photography, photos, illustrations, stock photos, sell stock photos, symbio stock, gallery, portfolio, digital art, online art, digital images, graphics, graphic design, graphic art, royalty free, photo management, clipart, pictures, sell pictures, sell photos, image library, web design, royalty free images, photo bank, photo library, photographer, illustrator, album, image hosting, image processing, watermarking, sell photographs, checkout, e-commerce, image, image album, image gallery, nextgen, nextgen gallery, paypal, photo, photo album, photo albums, photo gallery, photoalbum, photogallery, picture, sales, selling, shop, shopping, woocommerce photo, woocommerce picture, woocommerce media, woocommerce stock images, woocommerce microstock
-Stable tag: 1.2.7
+Stable tag: 1.3
 Requires at least: 4.0.0
 Tested up to: 4.2.2
 License: GPLv2
@@ -21,6 +21,7 @@ Check out the [Symbiostock demo site](http://demo.symbiostock.com/ "Symbiostock 
 **Features include:**
 
 * **FTP support.** Upload all your images via FTP quickly and easily for automated processing of media.
+* **Imagick & GD Support** Use either Imagick or the built in PHP GD library for image processing.
 * **Cron jobs.** Schedule the powerful built in processor to run periodically and minimize your workload. Alternatively, initiate processing on the fly via the administrative interface.
 * **Automatic thumbnail regeneration.** Automatically generates thumbnails as images are processed. Will automatically regenerate all thumbnails on size or watermark changes.
 * **Powerful watermarking.** Create your own watermark or use the default one. Decide how big or small the watermark will be, and what opacity it will have. Completely personalize the way your thumbnails look.
@@ -46,7 +47,7 @@ Many upcoming additions and features are in the works for Symbiostock, so keep u
 
 == Installation ==
 
-Symbiostock requires **WooCommerce** and the **Imagick PHP extension** to operate.
+Symbiostock requires **WooCommerce** to operate. Symbiostock can operate solely on the built in PHP GD library, but the **Imagick PHP extension** is needed for fully featured functionality, incuding vector support.
 
 1. Install Symbiostock either via the WordPress.org plugin directory, or by uploading the files to your server.
 2. That's it. You're ready to start uploading media!
@@ -66,6 +67,10 @@ Symbiostock is not meant to work hand in hand with digital media downloads not m
 = Are you going to be doing any networking amongst Symbiostock stores? =
 
 We are deep in the development of a fully functional networking system that will permit Symbiostock users to showcase their images collectively and generate sales.
+
+= What limitations are there if I don't have Imagick installed? =
+
+Without Imagick, Symbiostock cannot process vectors and some other minor functions will not be as optimal as they would be with it installed. This is due to limitations with the built in GD library that bundles with PHP. In essence, you can only process JPEG images using the GD library and is fully suitable for photographers.
 
 = What is the Symbiostock Artist Network? =
 
@@ -90,10 +95,18 @@ Easy!
 
 == Changelog ==
 
+= 1.3 =
+Release Date: June 20, 2015
+
+* Major feature added: Imagick no longer required for Symbiostock operation.
+* Minor feature added: Image metadata reading enabled without shell_exec
+* Minor fix: Metadata reading of numerical only tags fixed
+* Minor compatibility update with older versions of Imagick
+
 = 1.2.7 =
 Release Date: June 17, 2015
 
-* Minor bug fix: Watermark will no longer reset when updating Symbiostock. Note that watermark will reset one last time when applying this update.
+* Minor bug fix: Watermark will no longer reset when updating Symbiostock. Note that watermark will reset one last time when applying this update
 
 = 1.2.6 =
 Release Date: June 16, 2015
