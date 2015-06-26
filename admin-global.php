@@ -73,7 +73,7 @@ function ss_change_menutitle($title) {
 
 	foreach ($submenu["edit.php?post_type=product"] as $key => $value) {
 		if ($value[0] == 'Symbiostock') $submenu["edit.php?post_type=product"][$key][0] = 'Media';
-		if ($value[0] == __( 'Tags' )) {
+		if ($value[0] == _x( 'Tags', 'Admin menu name', 'woocommerce' )) {
 			$submenu["edit.php?post_type=product"][$key][0] = 'Licenses';
 			$submenu["edit.php?post_type=product"][$key][2] = 'edit-tags.php?taxonomy=pa_license&post_type=product';
 		}
