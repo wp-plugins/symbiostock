@@ -65,7 +65,7 @@ function ss_process_ftp($limit=5) {
 			if (get_post_status($postid)) {
 				$oldfilename = $GLOBALS['currSS']->ss_media_dir.ss_get_post_meta($postid, 'ss_media_filename');
 				if ($finalfilename = ss_update_media_info($postid,$fileloc)) {
-					if (file_exists($oldfilename)) unlink($oldfilename);
+					if (file_exists($oldfilename) && !is_dir($oldfilename)) unlink($oldfilename);
 					rename ($fileloc, $GLOBALS['currSS']->ss_media_dir.$finalfilename);
 					ss_redo_thumbnails($postid);
 					ss_write_image_metadata($postid);
