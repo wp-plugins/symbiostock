@@ -14,7 +14,7 @@ Symbiostock allows artists, illustrators and photographers to sell their photogr
 
 [Symbiostock](http://www.symbiostock.org/ "Symbiostock - Sell your images!") is a free, fully-featured WordPress plugin that works hand in hand with WooCommerce to offer a complete ecommerce platform for you to sell your visual media, whether it be photographs, illustrations or vectors.
 
-**Symbiostock is compatibile up to version 2.3.13 of WooCommerce. Compatibility with higher version of WooCommerce is not currently supported. Download it
+**Symbiostock is compatible up to version 2.3.13 of WooCommerce. Compatibility with higher versions of WooCommerce is not currently supported. Download it
 [here](https://downloads.wordpress.org/plugin/woocommerce.2.3.13.zip).**
 
 **Please note that all support is performed on Symbiostock.org in our [forums](http://www.symbiostock.org/forums "Symbiostock Forums"). Queries in the support forum here may or may not be answered.**
@@ -50,7 +50,7 @@ Many upcoming additions and features are in the works for Symbiostock, so keep u
 
 == Installation ==
 
-Symbiostock requires **WooCommerce** to operate. Symbiostock can operate solely on the built in PHP GD library, but the **Imagick PHP extension** is needed for fully featured functionality, incuding vector support.
+Symbiostock requires **WooCommerce 2.3.X** to operate. Symbiostock can operate solely on the built in PHP GD library, but the **Imagick PHP extension** is needed for fully featured functionality, incuding vector support.
 
 1. Install Symbiostock either via the WordPress.org plugin directory, or by uploading the files to your server.
 2. That's it. You're ready to start uploading media!
@@ -65,7 +65,7 @@ Symbiostock is 100% free! We have decided to release it as a fully featured free
 
 = Will Symbiostock conflict with my current WooCommerce integration? =
 
-Symbiostock is not meant to work hand in hand with digital media downloads not managed by Symbiostock.  It will work with other physical downloads, but this is not a supported feature as Symbiostock is generally meant to turn your WooCommerce store into a digital media store.
+Symbiostock is not meant to work hand in hand with digital media downloads not managed by Symbiostock.  It will work with other physical downloads, but this is not a supported feature as Symbiostock is generally meant to turn your WooCommerce store into a digital media store. Also please note that Symbiostock is compatible with WooCommerce up to version 2.3.13. You may download this version [here](https://downloads.wordpress.org/plugin/woocommerce.2.3.13.zip).
 
 = Are you going to be doing any networking amongst Symbiostock stores? =
 
