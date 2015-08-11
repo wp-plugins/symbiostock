@@ -14,6 +14,9 @@ Symbiostock allows artists, illustrators and photographers to sell their photogr
 
 [Symbiostock](http://www.symbiostock.org/ "Symbiostock - Sell your images!") is a free, fully-featured WordPress plugin that works hand in hand with WooCommerce to offer a complete ecommerce platform for you to sell your visual media, whether it be photographs, illustrations or vectors.
 
+**Symbiostock is compatibile up to version 2.3.13 of WooCommerce. Compatibility with higher version of WooCommerce is not currently supported. Download it
+[here](https://downloads.wordpress.org/plugin/woocommerce.2.3.13.zip).**
+
 **Please note that all support is performed on Symbiostock.org in our [forums](http://www.symbiostock.org/forums "Symbiostock Forums"). Queries in the support forum here may or may not be answered.**
 
 Check out the [Symbiostock demo site](http://demo.symbiostock.com/ "Symbiostock demo site") to see Symbiostock in action!
