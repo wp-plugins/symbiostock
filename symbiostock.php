@@ -137,7 +137,7 @@ class ssHelper {
 		} elseif (!$this->missingdependencies && !get_option('ss_ignorequickguide') && !isset($_GET['ss_ignorequickguide'])) {
 			$this->error_notice("quickguide");
 		}
-
+$this->error_notice_nowoo();
 		do_action( 'ss_check_settings_end' );
 	}
 
@@ -186,7 +186,7 @@ class ssHelper {
 	function error_notice_nowoo() {
 		?>
 		<div class="error">
-			<p><?php print __('Symbiostock requires the Woocommerce plugin to run. Please install or enable Woocommerce.','ss'); ?></p>
+			<p><?php print __('Symbiostock requires WooCommerce 2.3.13 to run. Please install <A href="https://downloads.wordpress.org/plugin/woocommerce.2.3.13.zip" target="_blank">WooCommerce 2.3.13</a>.','ss'); ?></p>
 		</div>
 		<?php
 	}
