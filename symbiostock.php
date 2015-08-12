@@ -137,7 +137,7 @@ class ssHelper {
 		} elseif (!$this->missingdependencies && !get_option('ss_ignorequickguide') && !isset($_GET['ss_ignorequickguide'])) {
 			$this->error_notice("quickguide");
 		}
-$this->error_notice_nowoo();
+
 		do_action( 'ss_check_settings_end' );
 	}
 
